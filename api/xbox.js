@@ -1,4 +1,3 @@
-// api/xbox.js (deploy this on Vercel, free tier)
 export default async function handler(req, res) {
   const apiKey = process.env.XBOX_API_KEY;
   const username = "Aruu079225";
